@@ -6,6 +6,29 @@ author:
   - "`r Sys.Date()`"
 ---
 
+### Reproducibility in data science courses at UBC
+
+
+.pull-left[
+<img src="img/logos.png" height=350>
+]
+
+.pull-right[
+Courses where we **explicitly** teach reproducibility for data science
+
+| Course   | Title                                | Level            | Reproducibility topic(s) |
+|----------|--------------------------------------|------------------|--------------------------|
+| [DSCI 100](https://ubc-dsci.github.io/dsci-100/README.html) | Introduction to data science         | undergraduate    | code for analysis, version control |
+| [DSCI 310](https://ubc-dsci.github.io/dsci-310-student/) | Reproducible and trustworthy workflows for data science | undergraduate | file naming & organization, version control, reproducible reports, environments, data analysis pipelines, software packages |
+| [DSCI 521](https://github.com/UBC-MDS/DSCI_521_platforms-dsci) | Computing platforms for data science | graduate         | file naming & organization, version control, reproducible reports, environments |
+| 
+| [DSCI 522](https://github.com/UBC-MDS/DSCI_522_dsci-workflows) | Data science workflows               | graduate         | version control, reproducible reports, environments, data analysis pipelines |
+| [DSCI 524](https://github.com/UBC-MDS/DSCI_524_collab-sw-dev) | Collaborative software development   | graduate         | version control, software packages |
+
+---
+
+
+
 class: inverse, center, middle
 
 # Data Science:
