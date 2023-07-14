@@ -1,48 +1,38 @@
----
-title: "Opinionated practices for teaching reproducibility:"
-subtitle: "motivation, guided instruction <br>and practice"  
-author: 
-  - "@TiffanyTimbers (UBC)"
-  - "`r Sys.Date()`"
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    css: xaringan-themer.css
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      slideNumberFormat: '%current%'
-      titleSlideClass: [top, left]
-      ratio: '16:9'
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Opinionated practices for teaching reproducibility:</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="@TiffanyTimbers (UBC)" />
+    <meta name="author" content="2023-07-14" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: top, left, title-slide
+
+.title[
+# Opinionated practices for teaching reproducibility:
+]
+.subtitle[
+## motivation, guided instruction <br>and practice
+]
+.author[
+### <span class="citation">@TiffanyTimbers</span> (UBC)
+]
+.author[
+### 2023-07-14
+]
 
 ---
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(message = FALSE, 
-                      echo = FALSE, 
-                      warning = FALSE,
-                      fig.align = "center")
-```
 
-```{r xaringan-themer, include=FALSE, warning=FALSE}
-library(xaringanthemer)
-style_duo_accent(
-  primary_color = "#9F999C",
-  secondary_color = "#FFE5F3",
-  inverse_header_color = "#8F8C8E",
-  link_color = "deeppink",
-  title_slide_text_color = "#3d3d3d",
-  title_slide_background_image = "img/title-slide-background-light.png",
-  title_slide_background_position = "left",
-  header_font_google = google_font("Josefin Sans"),
-  text_font_google   = google_font("Montserrat", "300", "300i"),
-  code_font_google   = google_font("Fira Mono")
-)
-```
 
-```{css, echo = FALSE}
+
+
+
+&lt;style type="text/css"&gt;
 # source: https://community.rstudio.com/t/using-multiple-font-sizes-for-code-chunks/26405/6
 .remark-slide-content {
   font-size: 20px;
@@ -63,7 +53,7 @@ style_duo_accent(
 .tiny .remark-code { /*Change made here*/
   font-size: 60% !important;
 }
-```
+&lt;/style&gt;
 
 
 
@@ -75,8 +65,8 @@ Courses where we **explicitly** teach reproducibility for data science
 | Course   | Title                                | Level            | Reproducibility topic(s) |
 |----------|--------------------------------------|------------------|--------------------------|
 | [DSCI 100](https://ubc-dsci.github.io/dsci-100/README.html) | Introduction to data science         | undergraduate    | code for analysis, version control |
-| [DSCI 310](https://ubc-dsci.github.io/dsci-310-student/) | Reproducible and trustworthy workflows for data science | undergraduate | file naming & organization, version control, reproducible reports, environments, data analysis pipelines, software packages |
-| [DSCI 521](https://github.com/UBC-MDS/DSCI_521_platforms-dsci) | Computing platforms for data science | graduate         | file naming & organization, version control, reproducible reports, environments |
+| [DSCI 310](https://ubc-dsci.github.io/dsci-310-student/) | Reproducible and trustworthy workflows for data science | undergraduate | file naming &amp; organization, version control, reproducible reports, environments, data analysis pipelines, software packages |
+| [DSCI 521](https://github.com/UBC-MDS/DSCI_521_platforms-dsci) | Computing platforms for data science | graduate         | file naming &amp; organization, version control, reproducible reports, environments |
 | 
 | [DSCI 522](https://github.com/UBC-MDS/DSCI_522_dsci-workflows) | Data science workflows               | graduate         | version control, reproducible reports, environments, data analysis pipelines |
 | [DSCI 524](https://github.com/UBC-MDS/DSCI_524_collab-sw-dev) | Collaborative software development   | graduate         | version control, software packages |
@@ -99,11 +89,11 @@ class: middle
 
 ## Reproducible analysis:
 
-#### *reaching the same result given the same input, computational methods and conditions*<sup>1</sup>.
+#### *reaching the same result given the same input, computational methods and conditions*&lt;sup&gt;1&lt;/sup&gt;.
 
 ## Auditable analysis,
 
-#### *a readable record of the steps used to carry out the analysis as well as a record of how the analysis methods evolved*.<sup>2</sup>
+#### *a readable record of the steps used to carry out the analysis as well as a record of how the analysis methods evolved*.&lt;sup&gt;2&lt;/sup&gt;
 
 .footnote[
 [1] National Academies of Sciences, 2019
@@ -189,7 +179,7 @@ class: center
 
 ## Git is hard!
 
-<img src="https://imgs.xkcd.com/comics/git_2x.png" height=475>
+&lt;img src="https://imgs.xkcd.com/comics/git_2x.png" height=475&gt;
 
 *Source: https://xkcd.com/1597/*
 ---
@@ -212,7 +202,7 @@ state without impacting any branches by switching back to a branch.
 If you want to create a new branch to retain commits you create, you may
 do so (now or later) by using -c with the switch command. Example:
 
-  git switch -c <new-branch-name>
+  git switch -c &lt;new-branch-name&gt;
 
 Or undo this operation with:
 
@@ -228,7 +218,7 @@ HEAD is now at cea9a00 updated site
 
 ## Git is hard!
 
-<img src="img/jenny-bryan-burn-it-all-down.png" width=700>
+&lt;img src="img/jenny-bryan-burn-it-all-down.png" width=700&gt;
 
 ---
 
@@ -236,7 +226,7 @@ class: center
 
 ## LaTeX errors are often cryptic to new learners
 
-<img src="img/rmd_cat.jpeg" height=450>
+&lt;img src="img/rmd_cat.jpeg" height=450&gt;
 
 *Source: https://twitter.com/overflow_meme/status/1232185254280138753*
 
@@ -246,14 +236,14 @@ class: center
 
 ## LaTeX errors are often cryptic to new learners
 
-<img src="img/r-latex-error.png" height=500>
+&lt;img src="img/r-latex-error.png" height=500&gt;
 
 ---
 class: center
 
 ## Creating environments is painstakingly slow
 
-<img src="https://www.meme-arsenal.com/memes/f8e3714ed0d4a19b65ebe61006ac9bde.jpg" height=450>
+&lt;img src="https://www.meme-arsenal.com/memes/f8e3714ed0d4a19b65ebe61006ac9bde.jpg" height=450&gt;
 
 *Source: https://www.meme-arsenal.com/en/create/meme/1759571*
 
@@ -267,7 +257,7 @@ Docker image:
 FROM rocker/verse:4.1.1
 
 # install R packages
-RUN apt-get update -qq && install2.r --error \
+RUN apt-get update -qq &amp;&amp; install2.r --error \
     --deps TRUE \
     plotly \
     GGally \
@@ -317,7 +307,7 @@ class: center, middle
 
 class: middle
 
-### Excerpt from Roger Peng's blog post on <br> ["The Role of Theory in Data Analysis"](https://simplystatistics.org/posts/2018-12-11-the-role-of-theory-in-data-analysis/):
+### Excerpt from Roger Peng's blog post on &lt;br&gt; ["The Role of Theory in Data Analysis"](https://simplystatistics.org/posts/2018-12-11-the-role-of-theory-in-data-analysis/):
 
 #### *There is no need for a new data analyst to learn about reproducibility “from experience”. We don’t need to lead a junior data analyst down a months-long winding path of non-reproducible analyses until they are finally bitten by non-reproducibility (and therefore “learn their lesson”). We can just tell them*
 
@@ -353,10 +343,10 @@ class: middle
 
 ## **Mastery of a subject often involves consolidating ideas, concepts and theories into long-term memory.** 
 
-## **And consolidating most things into long-term memory requires repetition**<sup>1</sup>.
+## **And consolidating most things into long-term memory requires repetition**&lt;sup&gt;1&lt;/sup&gt;.
 
 .footnote[
-[1] Ebbinghaus, Hermann (1913). “Memory (ha ruger & ce bussenius, trans.)”
+[1] Ebbinghaus, Hermann (1913). “Memory (ha ruger &amp; ce bussenius, trans.)”
 In: New York: Teachers College.(Original work published 1885) 39.
 ]
 ---
@@ -373,11 +363,11 @@ class: inverse, center, middle
 
 # Habit formation
 
-### *the triggering of behavior from contextual cues*<sup>1</sup>.
+### *the triggering of behavior from contextual cues*&lt;sup&gt;1&lt;/sup&gt;.
 
-<!--In the context of reproducible workflows
+&lt;!--In the context of reproducible workflows
 these cues are the tasks that students desire to execute, such as saving a file
-after adding new content or wanting to share a document with a colleague.-->
+after adding new content or wanting to share a document with a colleague.--&gt;
 
 .footnote[
 [1] Gardner, Benjamin and Amanda L. Rebar (Apr. 2019). “Habit Formation
@@ -390,10 +380,10 @@ and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxfo
 
 Habits protect individuals from motivational lapses, 
 where a desired good behavior is not expressed 
-due to a momentary lack of willpower<sup>1</sup>.
+due to a momentary lack of willpower&lt;sup&gt;1&lt;/sup&gt;.
 
 .pull-left[
-<img src="https://media.giphy.com/media/3240pzelRQkjj9XaiK/source.gif">
+&lt;img src="https://media.giphy.com/media/3240pzelRQkjj9XaiK/source.gif"&gt;
 *Source: https://giphy.com/gifs/reaction-3240pzelRQkjj9XaiK*
 ]
 
@@ -421,7 +411,7 @@ and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxfo
 - best learned through frequent, regular, and sustained cue exposure
 
 - some studies have reported that the median is at least around 70 days 
-before reaching the plateau phase of habit development<sup>1,2</sup>.
+before reaching the plateau phase of habit development&lt;sup&gt;1,2&lt;/sup&gt;.
 
 - ### habits == LOTS OF PRACTICE!
 
@@ -458,7 +448,7 @@ is helpful for providing practice opportunities.
 
 
 .pull-left[
-<img src="img/martha-stewart.png" width=500>
+&lt;img src="img/martha-stewart.png" width=500&gt;
 
 Source: https://peopletv.com/video/martha-bakes-angel-food-cake/
 ]
@@ -546,7 +536,7 @@ DSCI 100 teaching team
 
 .pull-right[
 2021-22 Master of Data Science teaching team
-<img src="https://ubc-mds.github.io/img/team/group.jpeg">
+&lt;img src="https://ubc-mds.github.io/img/team/group.jpeg"&gt;
 ]
 ---
 
@@ -560,3 +550,141 @@ class: inverse, center, middle
 
 #### talk slides: *url-TBD*
 #### paper: https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current%",
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
