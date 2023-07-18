@@ -4,7 +4,7 @@
     <title>Opinionated practices for teaching reproducibility:</title>
     <meta charset="utf-8" />
     <meta name="author" content="Tiffany Timbers (UBC)  Joel Ostblom (UBC)" />
-    <meta name="author" content="2023-07-17" />
+    <meta name="author" content="2023-07-18" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
@@ -22,7 +22,7 @@ class: top, left, title-slide
 ### Tiffany Timbers (UBC) </br> Joel Ostblom (UBC)
 ]
 .author[
-### 2023-07-17
+### 2023-07-18
 ]
 
 ---
@@ -366,9 +366,95 @@ class: middle
 
 ---
 
-## Tell stories from the trenches
+### Tell stories from the trenches
+
+Exercise prompt:
+
+1. Think and write down a non-reproducible, or non-auditable, workflow 
+you have used before at work, on a personal project, or in course work, 
+that negatively impacted your work somehow 
+(make sure to include this in the story). 
+Here’s an example: &lt;br&gt; &lt;br&gt; *As a Masters student, I started to use R to do my statistical analysis. I obtained the results I needed from running my code in the R console and copying the results into the word document that was my manuscript. Six months later we were working on revisions requested by the reviewers and I could not remember which version of the code I ran to get my results. I eventually figured it out through much trial and error, but the process was inefficient and very stressful.*
+&lt;br&gt;*–- Tiffany Timbers*
+
+2. When prompted, paste your story in the Google doc (link to be shared in class)
+
+---
+
+### Tell stories from the trenches
+
+Sample student story:
+
+*"When I was working with my last company, my team had a large dataset stored regarding some traffic data in the database and I wrote a script to retrieve the data and do data analysis in a single jupyter notebook, without putting proper documentation nor comments. The project was then tabled for a few months. But then a summer intern came and was assigned to pick up the project, so I had to explain everything in the notebook to her but I had totally no idea what I wrote since the logic was not quite straight-forward. It was also a hard time to set the environment up in her laptop since we had a bunch of libraries and dependencies used in the notebook. We finally took a week or two to set the environment up and transfer the knowledge to the intern, which was really a waste of time."*
+
+-- Master of Data Science student, UBC
+
+&lt;br&gt;
+
+- **Reproducibility failure &gt; insufficient documentation** 
+- **Impact of reproducibility failure &gt; loss of time**
+
+---
+
+### Tell stories from the trenches
+
+Sample student story:
+
+*"In my line of work, my colleagues and I heavily relied on SQL queries to withdraw data from database. She always forgot to save the queries while just sending me an excel file to read. Sometimes (Most of the time) when I cross checked the data, the result didn't match. It usually required hours of troubleshooting to figure out where the gap was between my query and her data. ¯\_(ツ)_/¯"*
+
+-- Master of Data Science student, UBC
+
+&lt;br&gt;
+
+- **Reproducibility failure &gt; methods not recorded as code** 
+- **Impact of reproducibility failure &gt; loss of time**
+
+---
+
+### Tell stories from the trenches
+
+Sample student story:
+
+*“When I was working in my last job creating a database, I was working between two different computer systems. I had written the code on my local computer (a windows) but it was being deployed on a Linux command line system. To debug my code it was easier to do on my computer but certain lines of code were specific to the linux machine vs. the window machine. While I was using version control I had a really hard time keeping track of which script was which and it caused me to waste lots of time and energy trying to fix the issue”*
+
+-- Master of Data Science student, UBC
+
+&lt;br&gt;
+
+- **Reproducibility failure &gt; lack of a shippable and shareable computational environment** 
+- **Impact of reproducibility failure &gt; loss of time**
 
 
+---
+
+### Tell stories from the trenches
+
+Exercise prompt for further engagement:
+
+Follow the instructions below 
+for each story share in the class stories from the trenches Google document.
+
+1. Read the story and reflect on which of the themes listed below 
+was likely the biggest cause of the reproducibility 
+or transparency failure described in the story.
+
+3. Label the story with the emoji 
+corresponding to the chosen theme from the table below:
+
+| Reproducibility and transparency themes | Emoji label |
+|-----------------------------------------|-------------|
+| Code                                    | ⌨️ (keyboard) |
+| Computational environments              | 💻 (laptop)  |
+| Software design                         | 💾 (floppy disk) |
+| Data analysis pipeline                  | ➡️ (right arrow) |
+| Documentation                           | 📄 (page facing up)
+| Project organization                    | 🗃 (card file box)|
+| Randomness                              | 🎲 (game die) |
+| Version control                         | 📜 (scroll) |
+
+&lt;!-- idea: also add consequence labels? 
+Categories would be time, reputation, work discarded, unfixable error, financial
+see: https://ttimbers.github.io/reproducibility-you-can-do-data-analysis-without-it-but-should-you/reproducibility-you-can-do-data-analysis-without-it-but-should-you.html#7--&gt;
 
 ---
 
