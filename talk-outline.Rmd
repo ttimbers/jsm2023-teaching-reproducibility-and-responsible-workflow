@@ -2,7 +2,7 @@
 title: "Opinionated practices for teaching reproducibility:"
 subtitle: "motivation, guided instruction <br>and practice"  
 author: 
-  - "@TiffanyTimbers (UBC)"
+  - "Tiffany Timbers (UBC) </br> Joel Ostblom (UBC)"
   - "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -95,21 +95,32 @@ class: inverse, center, middle
 
 ---
 
-class: middle
 
-## Reproducible analysis:
+<br><br>
+
+### Reproducible analysis:
 
 #### *reaching the same result given the same input, computational methods and conditions*<sup>1</sup>.
 
-## Auditable analysis,
+<br><br>
+
+--
+
+### Auditable analysis,
 
 #### *a readable record of the steps used to carry out the analysis as well as a record of how the analysis methods evolved*.<sup>2</sup>
+
+<br><br>
+
+
 
 .footnote[
 [1] National Academies of Sciences, 2019
 
 [2] Parker, 2017 and Ram, 2013
 ]
+
+--
 
 ---
 
@@ -119,31 +130,89 @@ class: middle
 
 - It is important that insights from data science are trustworthy
 
-- Reproducible and auditable methods are necessary for trustworthy data science
+<!--Russell Hardin (https://as.nyu.edu/faculty/russell-hardin.html) wrote: 
+“ Trust involves giving discretion to another to affect one’s interests.”
 
-We cannot trust non-reproducible and non-auditable analyses because they:
+Data science insights are very often used to make important, 
+real-life decisions
+
+-->
+
+- Reproducible and auditable methods are one of the expectations for trustworthy data science
+
+<!--
+
+ Don Tapscott ( The Naked Corporation) describes trust as: 
+ honest, considerate, accountable, and transparent.
+
+"Francis Fukuyama’s definition of trust:
+“ Trust is the expectation that arises within a community of regular,
+honest, and cooperative behavior, based on commonly shared norms, 
+on the part of other members of that community.”"
+
+-->
+
+---
+
+<br><br><br><br><br>
+
+### We cannot trust non-reproducible and non-auditable analyses because they:
+
+--
 
 1. lack evidence that the results could be regenerated
 
+--
+
 2. we don't know enough details of how they were created
+
+--
 
 3. there is an insufficient record of how and why analysis decisions were made
 
 ---
 
-In addition to contributing to the trustworthiness of data science work, employing reproducible and auditable methods and workflows bring additional benefits to data scientists, such as more effective collaboration. Data science is an inherently collaborative discipline, and adhering to reproducible and auditable data science methods greatly facilitates the act of collaborating in many contexts, further emphasizing the importance of learning this skill well.
+class: center, inverse
+
+<!-- add a background of an image of a lagniappe-->
+
+<br><br><br><br><br><br><br><br>
+
+### The lagniappe of reproducibile data science methods:
+
+--
+
+### more effective collaboration!
+
+<!--Data science is an inherently collaborative discipline, 
+and adhering to reproducible and auditable data science methods 
+greatly facilitates the act of collaborating in many contexts, 
+further emphasizing the importance of learning this skill well.
+-->
 
 ---
 
+<br><br><br>
+
 ## Examples of things that can go wrong without reproducible practices
+
+--
 
 - An interesting result that you cannot recreate 😞
 
+--
+
 - Your email inbox is full of information related to the project that only you have access too 😫
+
+--
 
 - A small change to the analysis code requires re-running the entire thing, *and takes hours...* 😧
 
+--
+
 - Activation time to becoming productive after taking a break from the project is hours to days 😴
+
+--
 
 - Code that can only be run on one machine, *and you don't know why...* 😵
 
@@ -155,13 +224,21 @@ class: inverse, center, middle
 
 ---
 
-class: middle
+<br><br><br><br><br><br>
 
-## Possibilities:
+<!-- add images to go along with each point-->
 
-1. Students are more excited about generating insights from data than reproducibility
+### Possibilities:
+
+--
+
+ 1. Students are more excited about generating insights from data than reproducibility
+
+--
 
 2. Lack of awareness of the problems with non-reproducible analyses
+
+--
 
 3. Reproducibility tools are not necessarily smooth and easy to learn
 
@@ -181,7 +258,7 @@ class: middle
 
 class: inverse, center, middle
 
-# placing extra emphasis on motivation
+# On placing extra emphasis on motivation:
 
 ---
 
@@ -301,11 +378,13 @@ class: middle
 
 ## Tell stories from the trenches
 
+
+
 ---
 
 class: inverse, center, middle
 
-# guided instruction
+# On guided instruction:
 
 ---
 
@@ -346,7 +425,7 @@ class: middle
 ---
 class: inverse, center, middle
 
-# lots of practice!!!
+# On lots of practice:
 ---
 
 class: middle
@@ -535,7 +614,7 @@ UBC Master of Data Science teaching team (past and present)
 - Rodolfo Lourenzutti
 - Firas Moosvi
 - Quan Nguyen
-- **Joel Ostblom** (co-author on preprint of this talk)
+- [Joel Ostblom](https://joelostblom.com/) (co-author on this work)
 - Alexi Rodríguez-Arelis
 - Arman Seyed-Ahmadi
 
