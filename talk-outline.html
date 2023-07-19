@@ -4,7 +4,7 @@
     <title>Opinionated practices for teaching reproducibility:</title>
     <meta charset="utf-8" />
     <meta name="author" content="Tiffany Timbers (UBC)  Joel Ostblom (UBC)" />
-    <meta name="author" content="2023-07-18" />
+    <meta name="author" content="2023-07-19" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
@@ -22,7 +22,7 @@ class: top, left, title-slide
 ### Tiffany Timbers (UBC) </br> Joel Ostblom (UBC)
 ]
 .author[
-### 2023-07-18
+### 2023-07-19
 ]
 
 ---
@@ -35,14 +35,14 @@ class: top, left, title-slide
 &lt;style type="text/css"&gt;
 # source: https://community.rstudio.com/t/using-multiple-font-sizes-for-code-chunks/26405/6
 .remark-slide-content {
-  font-size: 20px;
+  font-size: 18px;
   padding: 20px 80px 20px 80px;
 }
 .remark-code, .remark-inline-code {
   background: #f0f0f0;
 }
 .remark-code {
-  font-size: 24px;
+  font-size: 18px;
 }
 .huge .remark-code { /*Change made here*/
   font-size: 200% !important;
@@ -55,7 +55,15 @@ class: top, left, title-slide
 }
 &lt;/style&gt;
 
+---
 
+class: middle, center
+
+&lt;img src="img/ostblom-timbers-2022.png" height=475&gt;
+
+[https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922](https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922)
+
+---
 
 ### Reproducibility in data science courses at UBC
 
@@ -303,26 +311,7 @@ class: center
 
 ## LaTeX errors are often cryptic to new learners
 
-&lt;img src="img/rmd_cat.jpeg" height=450&gt;
-
-*Source: https://twitter.com/overflow_meme/status/1232185254280138753*
-
----
-
-class: center
-
-## LaTeX errors are often cryptic to new learners
-
 &lt;img src="img/r-latex-error.png" height=500&gt;
-
----
-class: center
-
-## Creating environments is painstakingly slow
-
-&lt;img src="https://www.meme-arsenal.com/memes/f8e3714ed0d4a19b65ebe61006ac9bde.jpg" height=450&gt;
-
-*Source: https://www.meme-arsenal.com/en/create/meme/1759571*
 
 ---
 
@@ -385,21 +374,6 @@ Here’s an example: &lt;br&gt; &lt;br&gt; *As a Masters student, I started to u
 
 Sample student story:
 
-*"When I was working with my last company, my team had a large dataset stored regarding some traffic data in the database and I wrote a script to retrieve the data and do data analysis in a single jupyter notebook, without putting proper documentation nor comments. The project was then tabled for a few months. But then a summer intern came and was assigned to pick up the project, so I had to explain everything in the notebook to her but I had totally no idea what I wrote since the logic was not quite straight-forward. It was also a hard time to set the environment up in her laptop since we had a bunch of libraries and dependencies used in the notebook. We finally took a week or two to set the environment up and transfer the knowledge to the intern, which was really a waste of time."*
-
--- Master of Data Science student, UBC
-
-&lt;br&gt;
-
-- **Reproducibility failure &gt; insufficient documentation** 
-- **Impact of reproducibility failure &gt; loss of time**
-
----
-
-### Tell stories from the trenches
-
-Sample student story:
-
 *"In my line of work, my colleagues and I heavily relied on SQL queries to withdraw data from database. She always forgot to save the queries while just sending me an excel file to read. Sometimes (Most of the time) when I cross checked the data, the result didn't match. It usually required hours of troubleshooting to figure out where the gap was between my query and her data. ¯\_(ツ)_/¯"*
 
 -- Master of Data Science student, UBC
@@ -434,11 +408,11 @@ Exercise prompt for further engagement:
 Follow the instructions below 
 for each story share in the class stories from the trenches Google document.
 
-1. Read the story and reflect on which of the themes listed below 
+- Read the story and reflect on which of the themes listed below 
 was likely the biggest cause of the reproducibility 
-or transparency failure described in the story.
+or transparency failure described in the story. 
 
-3. Label the story with the emoji 
+- Label the story with the emoji 
 corresponding to the chosen theme from the table below:
 
 | Reproducibility and transparency themes | Emoji label |
@@ -452,9 +426,23 @@ corresponding to the chosen theme from the table below:
 | Randomness                              | 🎲 (game die) |
 | Version control                         | 📜 (scroll) |
 
-&lt;!-- idea: also add consequence labels? 
-Categories would be time, reputation, work discarded, unfixable error, financial
-see: https://ttimbers.github.io/reproducibility-you-can-do-data-analysis-without-it-but-should-you/reproducibility-you-can-do-data-analysis-without-it-but-should-you.html#7--&gt;
+---
+
+Exercise prompt for further engagement (cont'd):
+
+- Re-read the story and reflect on what the primary cost was 
+from the reproducibility or transparency failure described in the story. 
+
+- Label the story with the emoji 
+corresponding to the chosen cost from the table below:
+
+| Reproducibility and transparency failure cost | Emoji label |
+|-----------------------------------------------|-------------|
+| Financial                                     | 💸 (money with wings) |
+| Reputational                                  | 🎖 (military medal)  |
+| Time                                          | 🕰 (mantelpiece clock) |
+| Unfixable error                               | 💥 (collision) |
+| Work discarded.                               | 🗑️(wastebasket)|
 
 ---
 
@@ -496,7 +484,9 @@ class: middle
 
 ## Worksheets
 
----
+&lt;img src="img/worksheet.png" width=775&gt;
+
+[Link to worksheet](https://github.com/UBC-DSCI/dsci-100-assets/blob/master/2021-spring/materials/worksheet_05/worksheet_05.ipynb)
 
 ---
 class: inverse, center, middle
@@ -632,6 +622,26 @@ Examples include:
 
 ---
 
+class: middle, center
+
+## Exercise: Practice reviewing a pull request
+
+&lt;img src="img/review-my-pr-repo.png" height=450&gt;
+
+[review-my-pull-request GitHub repository](https://github.com/ttimbers/review-my-pull-request)
+
+---
+
+class: middle, center
+
+## Exercise: Practice reviewing a pull request
+
+&lt;img src="img/review-my-pr-demo.png" height=450&gt;
+
+[review-my-pull-request GitHub repository](https://github.com/ttimbers/review-my-pull-request)
+
+---
+
 class: inverse, center, middle
 
 # Wrap up
@@ -647,6 +657,29 @@ class: middle
 ### 2. Guided instruction
 
 ### 3. Lots of practice!!!
+
+---
+
+class: center, middle
+
+&lt;img src="https://media.giphy.com/media/x1yhRwlqxBiQU/source.gif" width=800&gt;
+
+*Source: https://giphy.com/gifs/opinion-the-big-lebowski-x1yhRwlqxBiQU*
+
+---
+
+class: middle
+
+## Anectodal evidence
+
+- reduced technical debt in UBC Master of Data Science Capstone projects 
+as we have gained more experience teaching reproducibility
+
+## Feedback from Alumni
+
+- *"I had my [COMPANY] Git training today for the data engineers/scientists and I wanted to tell you that everything I learned in your class about git was extremely helpful. You did such an amazing job teaching everything we need to know about git and working in technology, (I personally think I learned much more in your class than in my training here in SF)."*
+
+- *"...the use of Git and Docker and the strong focus on reproducibility are of the best technical skills our program offer."*
 
 ---
 
@@ -673,6 +706,32 @@ National Academies of Sciences, Engineering, and Medicine and others
 Press.
 
 ---
+
+### References (continued)
+
+Parker, Hilary (2017). “Opinionated analysis development”. In: PeerJ
+Preprints 5, e3210v1.
+
+Ram, Karthik (2013). “Git can facilitate greater reproducibility and increased
+transparency in science”. In: Source code for biology and medicine 8.1,
+pp. 1–8.
+
+Wallensteen, Lena et al. (2018). “Retraction notice to" Evaluation of behavioral problems after prenatal dexamethasone treatment in Swedish adolescents at risk of CAH"[Hormones and Behavior 85C (2016) 5-11]”. In:
+Hormones and behavior 103, p. 140.
+
+Whitehouse, et al. (July 2021). “Retraction Note: Complex Societies Precede Moralizing Gods throughout World History”. en. In: Nature 595.7866, pp. 320–320. issn: 1476-4687. doi: 10.1038/s41586-021-03656-3.
+
+Zeeberg, Barry R et al. (2004). “Mistaken identifiers: gene name errors can
+be introduced inadvertently when using Excel in bioinformatics”. In: BMC
+bioinformatics 5.1, pp. 1–6.
+
+Ziemann, Mark, Yotam Eren, and Assam El-Osta (2016). “Gene name errors
+are widespread in the scientific literature”. In: Genome biology 17.1, pp. 1–
+3.
+
+### Credits
+
+[Title slide illustration](https://www.freepik.com/free-vector/couple-professionals-analyzing-graphs_6974868.htm) was created by pch.vector  - www.freepik.com.
 
 ---
 
