@@ -31,9 +31,9 @@ knitr::opts_chunk$set(message = FALSE,
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_duo_accent(
-  primary_color = "#9F999C",
-  secondary_color = "#FFE5F3",
-  inverse_header_color = "#8F8C8E",
+  primary_color = "#444444",
+  secondary_color = "#FFE5F3",# old colour #FFE5F3
+  inverse_header_color = "#444444",
   link_color = "deeppink",
   title_slide_text_color = "#3d3d3d",
   title_slide_background_image = "img/title-slide-background-light.png",
@@ -77,8 +77,7 @@ style_duo_accent(
 
 ### Reproducibility in data science courses at UBC
 
-
-Courses where we **explicitly** teach reproducibility for data science
+Courses where we *explicitly* teach reproducibility for data science
 
 | Course   | Title                                | Level            | Reproducibility topic(s) |
 |----------|--------------------------------------|------------------|--------------------------|
@@ -273,7 +272,7 @@ class: inverse, center, middle
 
 class: inverse, center, middle
 
-# On placing extra emphasis on motivation:
+## On placing extra emphasis on motivation:
 
 ---
 
@@ -359,13 +358,19 @@ That took about 5 minutes to build on my Macbook pro!!!
 
 ---
 
-class: middle
+<br><br><br><br><br><br>
 
-# Strategies for placing extra emphasis on motivation
+### Strategies for placing extra emphasis on motivation
+
+--
 
 1. Tell stories from the trenches
 
+--
+
 2. Study cases of failures with real world consequences
+
+--
 
 3. Let them fail (in a controlled manner)
 
@@ -465,49 +470,6 @@ corresponding to the chosen cost from the table below:
 
 class: inverse, center, middle
 
-# On guided instruction:
-
----
-
-class: center, middle
-
-### *From our experience, reproducibility is not something that most people or students figure out on their own, or if they do, it is not an efficient process...*
-
----
-
-class: middle
-
-### Excerpt from Roger Peng's blog post on <br> ["The Role of Theory in Data Analysis"](https://simplystatistics.org/posts/2018-12-11-the-role-of-theory-in-data-analysis/):
-
-#### *There is no need for a new data analyst to learn about reproducibility “from experience”. We don’t need to lead a junior data analyst down a months-long winding path of non-reproducible analyses until they are finally bitten by non-reproducibility (and therefore “learn their lesson”). We can just tell them*
-
-#### *"In the past, we’ve found it useful to make our data analyses reproducible. Here’s a workflow to guide you in your own analyses."*
-
-#### *With that one statement, we can “compress” over 20 years of experience.*
-
----
-
-class: middle
-
-### Strategies for guided instruction
-
-1. Live demonstration
-
-2. Pre-lecture activities
-
-3. Worksheets
-
----
-
-### Worksheets
-
-<img src="img/worksheet.png" width=775>
-
-[Link to worksheet](https://github.com/UBC-DSCI/dsci-100-assets/blob/master/2021-spring/materials/worksheet_05/worksheet_05.ipynb)
-
----
-class: inverse, center, middle
-
 # On lots of practice:
 ---
 
@@ -598,13 +560,19 @@ of the Division of Health Psychology, American Psychological Association
 
 ---
 
-class: middle
+<br><br><br><br><br><br>
 
 ### Strategies for lots of practice!!!
 
+--
+
 - "I do, you do"
 
+--
+
 - Create easy to access practice playgrounds
+
+--
 
 - Interleave reproduciblity practice with other data science tasks
 
