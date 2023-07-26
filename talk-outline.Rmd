@@ -232,23 +232,64 @@ class: inverse, center, middle
 
 ---
 
-<br><br><br><br><br><br>
+class: center middle
 
-<!-- add images to go along with each point-->
+#### Students are more excited about generating insights from data than reproducibility?
 
-### Possibilities:
+<img src="img/covid-forcast.png" height=350>
 
---
+*Source: [CTV BC News article on COVID case predictions](https://bc.ctvnews.ca/infectious-disease-modeller-predicts-big-spike-in-b-c-covid-cases-1.5056250)*
 
-1. Students are more excited about generating insights from data than reproducibility
+---
 
---
+class: center middle
 
-2. Lack of awareness of the problems with non-reproducible analyses
+#### Lack of awareness of the problems with non-reproducible analyses?
 
---
+<img src="img/shark-wave.png" height=350>
 
-3. Reproducibility tools are not necessarily smooth and easy to learn
+*Source: https://cheezburger.com/6600205568/untitled*
+
+---
+
+class: center middle
+
+#### Reproducibility tools are not necessarily smooth and easy to learn?
+
+For example, Git is hard!
+
+<img src="img/git_2x.png" height=350>
+
+*Source: https://xkcd.com/1597/*
+
+---
+
+class: center middle
+
+#### Our expectations of students' learning?
+
+
+.pull-left[
+
+<br>
+
+We want to actually change their habits or behaviours!
+
+Habits protect individuals from motivational lapses, 
+where a desired good behavior is not expressed 
+due to a momentary lack of willpower<sup>1</sup>.
+]
+
+.pull-right[
+<img src="https://media.giphy.com/media/3240pzelRQkjj9XaiK/source.gif">
+*Source: [Star Wars: The Force Awakens](https://giphy.com/gifs/reaction-3240pzelRQkjj9XaiK)*
+]
+
+
+.footnote[
+[1] Gardner, Benjamin and Amanda L. Rebar (Apr. 2019). “Habit Formation
+and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxford University Press. isbn: 978-0-19-023655-7. doi: 10.1093/acrefore/9780190236557.013.129.
+]
 
 ---
 
@@ -270,93 +311,7 @@ class: inverse, center, middle
 
 ---
 
-class: inverse, center, middle
-
-## On placing extra emphasis on motivation:
-
----
-
-class: center
-
-### Git is hard!
-
-<img src="https://imgs.xkcd.com/comics/git_2x.png" height=475>
-
-*Source: https://xkcd.com/1597/*
----
-
-### Git is hard!
-
-Command to view the state of the repository 2 commits ago:
-```bash
-git checkout HEAD~2
-```
-
-Output 🤯:
-```bash
-Note: switching to 'HEAD~2'.
-
-You are in 'detached HEAD' state. You can look around, make experimental
-changes and commit them, and you can discard any commits you make in this
-state without impacting any branches by switching back to a branch.
-
-If you want to create a new branch to retain commits you create, you may
-do so (now or later) by using -c with the switch command. Example:
-
-  git switch -c <new-branch-name>
-
-Or undo this operation with:
-
-  git switch -
-
-Turn off this advice by setting config variable advice.detachedHead to false
-
-HEAD is now at cea9a00 updated site
-
-```
-
----
-
-### Git is hard!
-
-<img src="img/jenny-bryan-burn-it-all-down.png" width=700>
-
----
-
-class: center
-
-### LaTeX errors are often cryptic to new learners
-
-<img src="img/r-latex-error.png" height=500>
-
----
-
-### Creating environments is painstakingly slow
-
-Dockerfile that adds 3 packages to a [rocker](https://www.rocker-project.org/) 
-Docker image:
-```Docker
-FROM rocker/verse:4.1.1
-
-# install R packages
-RUN apt-get update -qq && install2.r --error \
-    --deps TRUE \
-    plotly \
-    GGally \
-    cowplot
-
-```
-
-Build the Dockerfile:
-```bash
-time docker build .
-[+] Building 198.4s (6/6) FINISHED
-...
-```
-
-That took about 5 minutes to build on my Macbook pro!!!
-
----
+class: inverse
 
 <br><br><br><br><br><br>
 
@@ -423,6 +378,10 @@ Sample student story:
 
 ---
 
+<!-- add the data I collected here -->
+
+---
+
 ### Tell stories from the trenches
 
 Exercise prompt for further engagement:
@@ -466,99 +425,11 @@ corresponding to the chosen cost from the table below:
 | Unfixable error                               | 💥 (collision) |
 | Work discarded.                               | 🗑️(wastebasket)|
 
----
-
-class: inverse, center, middle
-
-# On lots of practice:
----
-
-class: middle
-
-### **Mastery of a subject often involves consolidating ideas, concepts and theories into long-term memory.** 
-
-### **And consolidating most things into long-term memory requires repetition**<sup>1</sup>.
-
-.footnote[
-[1] Ebbinghaus, Hermann (1913). “Memory (ha ruger & ce bussenius, trans.)”
-In: New York: Teachers College.(Original work published 1885) 39.
-]
----
-
-class: center, middle
-
-### However, when we teach reproducibility workflows and skills, we want students to do more than learn them, we want them to use and practice them. 
-
-### We want to actually change their habits or behaviours.
+<!-- add a wrap up slide to reiterate why this exercise is good and what point it hits -->
 
 ---
 
-class: inverse, center, middle
-
-# Habit formation
-
-### *the triggering of behavior from contextual cues*<sup>1</sup>.
-
-<!--In the context of reproducible workflows
-these cues are the tasks that students desire to execute, such as saving a file
-after adding new content or wanting to share a document with a colleague.-->
-
-.footnote[
-[1] Gardner, Benjamin and Amanda L. Rebar (Apr. 2019). “Habit Formation
-and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxford University Press. isbn: 978-0-19-023655-7. doi: 10.1093/acrefore/9780190236557.013.129.
-]
-
----
-
-### How does habit formation help?
-
-Habits protect individuals from motivational lapses, 
-where a desired good behavior is not expressed 
-due to a momentary lack of willpower<sup>1</sup>.
-
-.pull-left[
-<img src="https://media.giphy.com/media/3240pzelRQkjj9XaiK/source.gif">
-*Source: https://giphy.com/gifs/reaction-3240pzelRQkjj9XaiK*
-]
-
-.pull-right[
-- Non-reproducible workflows tend to be "easier" and life gets "busy"...
-
-- Without reproducibility habits, 
-its a perfect storm to do the non-reproducible alternative 
-**(even when you know it's better!)**
-
-- We want to get students to a point 
-where they opt for the reproducible workflow “by default”.
-]
-
-
-.footnote[
-[1] Gardner, Benjamin and Amanda L. Rebar (Apr. 2019). “Habit Formation
-and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxford University Press. isbn: 978-0-19-023655-7. doi: 10.1093/acrefore/9780190236557.013.129.
-]
-
----
-
-### How are habits formed?
-
-- best learned through frequent, regular, and sustained cue exposure
-
-- some studies have reported that the median is at least around 70 days 
-before reaching the plateau phase of habit development<sup>1,2</sup>.
-
-- ### habits == LOTS OF PRACTICE!
-
-.footnote[
-[1] Lally, Phillippa et al. (2010). “How Are Habits Formed: Modelling Habit Formation in the Real World”. en. In: European Journal of Social Psychology
-40.6, pp. 998–1009. issn: 1099-0992. doi: 10.1002/ejsp.674.
-
-[2] Fournier, Marion et al. (Nov. 2017). “Effects of Circadian Cortisol on the Development of a Health Habit”. eng. In: Health Psychology: Official Journal
-of the Division of Health Psychology, American Psychological Association
-36.11, pp. 1059–1064. issn: 1930-7810. doi: 10.1037/hea0000510.
-]
-
----
+class: inverse
 
 <br><br><br><br><br><br>
 
@@ -592,6 +463,8 @@ is helpful for providing practice opportunities.
 
 Source: https://peopletv.com/video/martha-bakes-angel-food-cake/
 ]
+
+--
 
 .pull-right[
 Examples include:
