@@ -18,6 +18,8 @@ output:
 
 ---
 
+class: middle, center
+
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(message = FALSE, 
@@ -65,9 +67,7 @@ style_duo_accent(
 }
 ```
 
----
 
-class: middle, center
 
 <img src="img/ostblom-timbers-2022.png" height=475>
 
@@ -95,7 +95,7 @@ Courses where we **explicitly** teach reproducibility for data science
 
 class: inverse, center, middle
 
-# Data Science:
+## Data Science:
 
 ### *the study, development and practice* 
 ### *of reproducible and auditable processes* 
@@ -128,13 +128,12 @@ class: inverse, center, middle
 [2] Parker, 2017 and Ram, 2013
 ]
 
---
-
 ---
 
-class: middle
 
-## Why do we adopt this definition?
+<br><br><br><br><br><br>
+
+### Why do we adopt this definition?
 
 - It is important that insights from data science are trustworthy
 
@@ -145,6 +144,8 @@ Data science insights are very often used to make important,
 real-life decisions
 
 -->
+
+--
 
 - Reproducible and auditable methods are one of the expectations for trustworthy data science
 
@@ -202,7 +203,7 @@ further emphasizing the importance of learning this skill well.
 
 <br><br><br>
 
-## Examples of things that can go wrong without reproducible practices
+### Examples of things that can go wrong without reproducible practices
 
 --
 
@@ -228,7 +229,7 @@ further emphasizing the importance of learning this skill well.
 
 class: inverse, center, middle
 
-## *So if reproducibility is so important for data science, why is it hard to teach it?*
+### *So if reproducibility is so important for data science, why is it hard to teach it?*
 
 ---
 
@@ -240,7 +241,7 @@ class: inverse, center, middle
 
 --
 
- 1. Students are more excited about generating insights from data than reproducibility
+1. Students are more excited about generating insights from data than reproducibility
 
 --
 
@@ -252,15 +253,21 @@ class: inverse, center, middle
 
 ---
 
-class: middle
+<br><br><br><br><br><br>
 
-## Key things for teaching reproducibility
+### Key things for teaching reproducibility
 
-### 1. placing extra emphasis on motivation
+--
 
-### 2. guided instruction
+1. placing extra emphasis on motivation
 
-### 3. lots of practice!!!
+--
+
+2. guided instruction
+
+--
+
+3. lots of practice!!!
 
 ---
 
@@ -272,14 +279,14 @@ class: inverse, center, middle
 
 class: center
 
-## Git is hard!
+### Git is hard!
 
 <img src="https://imgs.xkcd.com/comics/git_2x.png" height=475>
 
 *Source: https://xkcd.com/1597/*
 ---
 
-## Git is hard!
+### Git is hard!
 
 Command to view the state of the repository 2 commits ago:
 ```bash
@@ -311,7 +318,7 @@ HEAD is now at cea9a00 updated site
 
 ---
 
-## Git is hard!
+### Git is hard!
 
 <img src="img/jenny-bryan-burn-it-all-down.png" width=700>
 
@@ -319,13 +326,13 @@ HEAD is now at cea9a00 updated site
 
 class: center
 
-## LaTeX errors are often cryptic to new learners
+### LaTeX errors are often cryptic to new learners
 
 <img src="img/r-latex-error.png" height=500>
 
 ---
 
-## Creating environments is painstakingly slow
+### Creating environments is painstakingly slow
 
 Dockerfile that adds 3 packages to a [rocker](https://www.rocker-project.org/) 
 Docker image:
@@ -482,7 +489,7 @@ class: middle
 
 class: middle
 
-# Strategies for guided instruction
+### Strategies for guided instruction
 
 1. Live demonstration
 
@@ -492,7 +499,7 @@ class: middle
 
 ---
 
-## Worksheets
+### Worksheets
 
 <img src="img/worksheet.png" width=775>
 
@@ -506,9 +513,9 @@ class: inverse, center, middle
 
 class: middle
 
-## **Mastery of a subject often involves consolidating ideas, concepts and theories into long-term memory.** 
+### **Mastery of a subject often involves consolidating ideas, concepts and theories into long-term memory.** 
 
-## **And consolidating most things into long-term memory requires repetition**<sup>1</sup>.
+### **And consolidating most things into long-term memory requires repetition**<sup>1</sup>.
 
 .footnote[
 [1] Ebbinghaus, Hermann (1913). “Memory (ha ruger & ce bussenius, trans.)”
@@ -541,7 +548,7 @@ and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxfo
 
 ---
 
-## How does habit formation help?
+### How does habit formation help?
 
 Habits protect individuals from motivational lapses, 
 where a desired good behavior is not expressed 
@@ -571,7 +578,7 @@ and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxfo
 
 ---
 
-## How are habits formed?
+### How are habits formed?
 
 - best learned through frequent, regular, and sustained cue exposure
 
@@ -593,7 +600,7 @@ of the Division of Health Psychology, American Psychological Association
 
 class: middle
 
-# Strategies for lots of practice!!!
+### Strategies for lots of practice!!!
 
 - "I do, you do"
 
@@ -603,7 +610,7 @@ class: middle
 
 ---
 
-## Create easy to access practice playgrounds
+### Create easy to access practice playgrounds
 
 Some reproducibility workflows require some time consuming, 
 or complex prerequisite work to have been done before it makes sense to do them.
@@ -632,9 +639,25 @@ Examples include:
 
 ---
 
+### Exercise: Practice reviewing a pull request
+
+This is a hard task to get a lot of practice on! 
+
+Why? 
+
+Before a pull request can be reviewed, a lot needs to happen to set the stage:
+
+- Setup a GitHub repository
+- Commit some files
+- Make a change on another branch (or in a forked repo)
+- Open a pull request
+
+
+---
+
 class: middle, center
 
-## Exercise: Practice reviewing a pull request
+### Exercise: Practice reviewing a pull request
 
 <img src="img/review-my-pr-repo.png" height=450>
 
@@ -644,7 +667,7 @@ class: middle, center
 
 class: middle, center
 
-## Exercise: Practice reviewing a pull request
+### Exercise: Practice reviewing a pull request
 
 <img src="img/review-my-pr-demo.png" height=450>
 
@@ -660,13 +683,13 @@ class: inverse, center, middle
 
 class: middle
 
-## Key things for teaching reproducibility
+### Key things for teaching reproducibility
 
-### 1. Extra emphasis on motivation
+#### 1. Extra emphasis on motivation
 
-### 2. Guided instruction
+#### 2. Guided instruction
 
-### 3. Lots of practice!!!
+#### 3. Lots of practice!!!
 
 ---
 
@@ -680,12 +703,12 @@ class: center, middle
 
 class: middle
 
-## Anectodal evidence
+### Anectodal evidence
 
 - reduced technical debt in UBC Master of Data Science Capstone projects 
 as we have gained more experience teaching reproducibility
 
-## Feedback from Alumni
+### Feedback from Alumni
 
 - *"I had my [COMPANY] Git training today for the data engineers/scientists and I wanted to tell you that everything I learned in your class about git was extremely helpful. You did such an amazing job teaching everything we need to know about git and working in technology, (I personally think I learned much more in your class than in my training here in SF)."*
 
