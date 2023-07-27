@@ -11,6 +11,8 @@ Tiffany Timbers
 
 Reproducibility is a critical component to creating trustworthy data analyses, however most students enter the field of data science with other topics in mind, such as the current hot topic of machine learning. This, along with the highly technical nature of current reproducibility tools, present out-of-the gate challenges in teaching reproducibility. What can a data science educator do? Over several iterations of teaching courses focused on reproducible data science tools and workflows at the University of British Columbia, we have found that providing extra motivation, guided instruction and lots of practice are key to effectively teaching this challenging, yet important subject. In this talk we present examples of how we motivate, guide, and provide ample practice opportunities to students to effectively engage them in learning how to perform reproducible data analyses. 
 
+- [PDF slides](timbers-opinionated-practices-for-teaching-reproducibility/timbers-opinionated-practices-for-teaching-reproducibility.pdf)
+
 ### From teaching to practice: Insights from the Toronto Reproducibility Conferences
 Rohan Alexander
 
