@@ -134,6 +134,8 @@ class: inverse, center, middle
 
 ### Why do we adopt this definition?
 
+--
+
 - It is important that insights from data science are trustworthy
 
 <!--Russell Hardin (https://as.nyu.edu/faculty/russell-hardin.html) wrote: 
@@ -319,7 +321,7 @@ class: inverse
 
 --
 
-1. Tell stories from the trenches
+1. Let them fail (in a controlled manner)
 
 --
 
@@ -327,8 +329,7 @@ class: inverse
 
 --
 
-3. Let them fail (in a controlled manner)
-
+3. Tell stories from the trenches
 
 ---
 
@@ -378,7 +379,17 @@ Sample student story:
 
 ---
 
-<!-- add the data I collected here -->
+### Causes and impacts of reproducibility failures from students' stories from the trenches
+
+
+.pull-left[
+<img src="img/repro_theme_chart.png" width=500>
+]
+
+.pull-right[
+<img src="img/cost_theme_chart.png" width=500>
+]
+
 
 ---
 
@@ -425,7 +436,22 @@ corresponding to the chosen cost from the table below:
 | Unfixable error                               | 💥 (collision) |
 | Work discarded.                               | 🗑️(wastebasket)|
 
-<!-- add a wrap up slide to reiterate why this exercise is good and what point it hits -->
+---
+
+### Tell stories from the trenches
+
+.pull-left[
+Why I really like this exercise:
+
+- Self reflection
+- Community building ("you are not alone!")
+- Engaging peer learning
+- Relatable
+]
+
+.pull-right[
+<img src="img/mds-students.jpeg" width=500>
+]
 
 ---
 
@@ -441,15 +467,15 @@ class: inverse
 
 --
 
-- Create easy to access practice playgrounds
+- Interleave reproduciblity practice with other data science tasks
 
 --
 
-- Interleave reproduciblity practice with other data science tasks
+- Pre-bake exercises
 
 ---
 
-### Create easy to access practice playgrounds
+### Pre-bake exercises
 
 Some reproducibility workflows require some time consuming, 
 or complex prerequisite work to have been done before it makes sense to do them.
@@ -480,9 +506,9 @@ Examples include:
 
 ---
 
-### Exercise: Practice reviewing a pull request
+### Pre-baked review my pull request exercise
 
-This is a hard task to get a lot of practice on! 
+Reviewing pull requests is a hard task to get a lot of practice on! 
 
 Why? 
 
@@ -498,7 +524,7 @@ Before a pull request can be reviewed, a lot needs to happen to set the stage:
 
 class: middle, center
 
-### Exercise: Practice reviewing a pull request
+### Exercise: Pre-baked review my pull request exercise
 
 <img src="img/review-my-pr-repo.png" height=450>
 
@@ -508,11 +534,27 @@ class: middle, center
 
 class: middle, center
 
-### Exercise: Practice reviewing a pull request
+### Exercise: Pre-baked review my pull request exercise
 
 <img src="img/review-my-pr-demo.png" height=450>
 
 [review-my-pull-request GitHub repository](https://github.com/ttimbers/review-my-pull-request)
+
+---
+
+### Pre-baked review my pull request exercise
+
+.pull-left[
+Why I really like this exercise:
+
+- Allows focused practice on what students are supposed to be learning
+- Mistakes on earlier steps do not prevent practice
+- Very scalable
+]
+
+.pull-right[
+<img src="img/mds-students2.jpeg" width=500>
+]
 
 ---
 
