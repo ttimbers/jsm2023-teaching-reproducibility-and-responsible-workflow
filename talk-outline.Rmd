@@ -129,12 +129,10 @@ class: inverse, center, middle
 
 ---
 
-
-<br><br><br><br><br><br>
-
 ### Why do we adopt this definition?
 
---
+.pull-left[
+<br><br>
 
 - It is important that insights from data science are trustworthy
 
@@ -145,8 +143,6 @@ Data science insights are very often used to make important,
 real-life decisions
 
 -->
-
---
 
 - Reproducible and auditable methods are one of the expectations for trustworthy data science
 
@@ -161,6 +157,11 @@ honest, and cooperative behavior, based on commonly shared norms,
 on the part of other members of that community.”"
 
 -->
+]
+
+.pull-right[
+<img src="img/trust.jpeg" height=400>
+]
 
 ---
 
@@ -188,9 +189,7 @@ class: center, inverse
 
 <br><br><br><br><br><br><br><br>
 
-### The lagniappe of reproducibile data science methods:
-
---
+### The lagniappe<sup>1</sup> of reproducibile data science methods:
 
 ### more effective collaboration!
 
@@ -199,6 +198,10 @@ and adhering to reproducible and auditable data science methods
 greatly facilitates the act of collaborating in many contexts, 
 further emphasizing the importance of learning this skill well.
 -->
+
+.footnote[
+[1] [lagniappe: a small gift given with a purchase to a customer, by way of compliment or for good measure; bonus.](https://www.dictionary.com/browse/lagniappe)
+]
 
 ---
 
