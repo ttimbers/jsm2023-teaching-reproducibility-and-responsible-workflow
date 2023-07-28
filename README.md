@@ -6,6 +6,8 @@ Sara Stoudt
 
 Working with data necessitates collaboration. Although students often learn technical workflows to wrangle and analyze data, these workflows may break down or require adjustment to accommodate the different stages of the writing process when it is time to face the communication phase of the project. In this talk, I describe two writing workflows for use by students in a final-project setting. One workflow involves version control and aims to minimize the chance of a merge conflict throughout the writing process, and the other aims to add some level of reproducibility to a Google-Doc-heavy writing workflow (i.e., avoid manual copying and pasting). Both rely on a division of the labor, require a plan (and structure) to be created and followed by members of a team, and involve communication outside of the final report document itself. 
 
+- [PDF slides](stoudt-collaborative-writing-workflows/stoudt-collaborative-writing-workflows.pdf)
+
 ### [Opinionated practices for teaching reproducibility: motivation, guided instruction, and practice](timbers-opinionated-practices-for-teaching-reproducibility#readme)
 Tiffany Timbers
 
