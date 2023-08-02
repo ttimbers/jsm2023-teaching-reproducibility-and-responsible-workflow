@@ -7,9 +7,18 @@
 - 10:30am - 12:20pm
 - Room CC-203C/D
 
+Modern statistics and data science utilizes an iterative data analysis process to solve problems and extract meaning from data in a reproducible manner. The importance of the data analysis cycle has also been described in many places, including the ASA's guidelines for statistics majors and the Park City report.
+
+The National Academies of Science, Engineering, and Medicine's (NASEM) 2018 "Data Science for Undergraduates" consensus study identified the importance of workflow and reproducibility as a component of data acumen needed in our graduates. The NASEM report stated that "documenting, incrementally improving, sharing, and generalizing such workflows are an important part of data science practice owing to the team nature of data science and broader significance of scientific reproducibility and replicability."
+
+In parallel, the NASEM 2019 report on "Reproducibility and replicability in science" provided guidance about how to foster transparency and rigor in research.
+An [issue](https://www.tandfonline.com/toc/ujse21/30/3?nav=tocList) of the Journal of Statistics and Data Science Education, published in November 2022, featured 11 papers plus an [editorial](https://www.tandfonline.com/doi/full/10.1080/26939169.2022.2141001) on approaches to motivate and teach reproducibility and responsible workflow.
+
+In this session, authors of papers in the issue and other experts on open and reproducible science will discuss some of the challenges and opportunities in helping students develop these important skills.
+
 
 ### Collaborative writing workflows: building blocks towards reproducibility
-Sara Stoudt
+Sara Stoudt (Bucknell University)
 
 Working with data necessitates collaboration. Although students often learn technical workflows to wrangle and analyze data, these workflows may break down or require adjustment to accommodate the different stages of the writing process when it is time to face the communication phase of the project. In this talk, I describe two writing workflows for use by students in a final-project setting. One workflow involves version control and aims to minimize the chance of a merge conflict throughout the writing process, and the other aims to add some level of reproducibility to a Google-Doc-heavy writing workflow (i.e., avoid manual copying and pasting). Both rely on a division of the labor, require a plan (and structure) to be created and followed by members of a team, and involve communication outside of the final report document itself. 
 
