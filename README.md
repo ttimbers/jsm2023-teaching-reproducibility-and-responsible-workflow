@@ -41,4 +41,6 @@ Nicholas Horton (Journal of Statistics and Data Science Education and Amherst Co
 
 In 2021, Project TIER and the Sheffield Methods Institute organized a ten-week long symposium with a focus on computational reproducibility. This gathering was the impetus for a special issue in the Journal of Statistics and Data Science Education (JSDSE) on teaching reproducibility and responsible workflows. In this talk, I will summarize key lessons from the symposium, the benefits that computational skills provide students for future education and employment, how this work fosters their intellectual development more broadly, and through my perspective as the editor of JSDSE, how this topic relates to scholarship in statistics and data science education.
 
+- [PDF slides](4-horton-editors-perspective/horton-slides.pdf)
+
 ### Discussant: Chris Paciorek (University of California, Berkeley)
