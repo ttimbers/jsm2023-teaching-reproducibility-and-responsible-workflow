@@ -16,6 +16,7 @@ An [issue](https://www.tandfonline.com/toc/ujse21/30/3?nav=tocList) of the Journ
 
 In this session, authors of papers in the issue and other experts on open and reproducible science will discuss some of the challenges and opportunities in helping students develop these important skills.
 
+Session chair: Monica Alexander (University of Toronto)
 
 ### Collaborative writing workflows: building blocks towards reproducibility
 Sara Stoudt (Bucknell University)
@@ -39,8 +40,11 @@ Theoretical statistics has well-established norms that govern what is required f
 ### Teaching reproducibility and responsible workflow: an editor's perspective
 Nicholas Horton (Journal of Statistics and Data Science Education and Amherst College)
 
-In 2021, Project TIER and the Sheffield Methods Institute organized a ten-week long symposium with a focus on computational reproducibility. This gathering was the impetus for a special issue in the Journal of Statistics and Data Science Education (JSDSE) on teaching reproducibility and responsible workflows. In this talk, I will summarize key lessons from the symposium, the benefits that computational skills provide students for future education and employment, how this work fosters their intellectual development more broadly, and through my perspective as the editor of JSDSE, how this topic relates to scholarship in statistics and data science education.
+In 2021, Project TIER and the Sheffield Methods Institute organized a ten-week long symposium with a focus on computational reproducibility.
+This gathering was the impetus for a special issue in the Journal of Statistics and Data Science Education (JSDSE) on teaching reproducibility and responsible workflows.
+In this talk, I summarize key lessons from the symposium, the benefits that computational skills provide students for future education and employment, how this work fosters their intellectual development more broadly, and through my perspective as the editor of JSDSE, how this topic relates to scholarship in statistics and data science education.
+I close with comments on the new JSDSE requirements that code and data supporting articles in the journal be shared publicly.
 
-- [PDF slides](4-horton-editors-perspective/horton-slides.pdf)
+- [PDF slides](4-horton-editors-perspective/JSDSE_JSM_2023_Horton.pdf)
 
 ### Discussant: Chris Paciorek (University of California, Berkeley)
