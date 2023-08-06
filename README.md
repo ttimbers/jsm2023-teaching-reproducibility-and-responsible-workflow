@@ -48,3 +48,5 @@ I close with comments on the new JSDSE requirements that code and data supportin
 - [PDF slides](4-horton-editors-perspective/JSDSE_JSM_2023_Horton.pdf)
 
 ### Discussant: Chris Paciorek (University of California, Berkeley)
+
+- [PDF slides](5-paciorek-discussion/paciorek-discussion.pdf)
