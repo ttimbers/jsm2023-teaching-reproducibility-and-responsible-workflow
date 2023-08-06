@@ -37,6 +37,8 @@ Rohan Alexander (University of Toronto)
 
 Theoretical statistics has well-established norms that govern what is required for a claim to be deemed credible - a proof that has been verified by others. In contrast, applied statistics and data science relies heavily on computation rather than formal proofs. In recent years, however, there has been considerable innovation in bringing a level of rigour to claims based on code and data, which is comparable to that of claims made in statistical theory. One particular challenge is in teaching these innovations, both in terms of content and pedagogical methods. The Toronto Reproducibility Conference is a multi-day, hybrid conference hosted by CANSSI Ontario and the University of Toronto's Data Sciences Institute that has been held in 2021, 2022, and 2023. This talk will summarize learnings from the "Teaching reproducibility" track, and in doing so, discuss the emerging consensus around teaching reproducible applied statistics and data science, and what the future may look like. 
 
+- [PDF slides](https://github.com/ttimbers/jsm2023-teaching-reproducibility-and-responsible-workflow/blob/main/3-alexander-lessons_from_the_Toronto_Data_Workshop/2023-08-04-JSM-Rohan.pdf)
+
 ### Teaching reproducibility and responsible workflow: an editor's perspective
 Nicholas Horton (Journal of Statistics and Data Science Education and Amherst College)
 
