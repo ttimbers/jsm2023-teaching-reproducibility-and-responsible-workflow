@@ -4,6 +4,7 @@ subtitle: "motivation, guided instruction <br>and practice"
 author: 
   - "Tiffany Timbers (UBC) </br> Joel Ostblom (UBC)"
   - "`r Sys.Date()`"
+  - "*bit.ly/opin-prac-repro*"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -455,6 +456,8 @@ corresponding to the chosen cost from the table below:
 
 ---
 
+class: middle
+
 ### Tell stories from the trenches
 
 .pull-left[
@@ -693,5 +696,9 @@ class: inverse, center, middle
 
 ### @TiffanyTimbers
 
-#### talk slides: *url-TBD*
-#### paper: https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922
+### talk slides: [bit.ly/opin-prac-repro](https://ttimbers.github.io/jsm2023-teaching-reproducibility-and-responsible-workflow/2-timbers-opinionated-practices-for-teaching-reproducibility/timbers-opinionated-practices-for-teaching-reproducibility.html#1)
+
+<img src="img/bit.ly_opin-prac-repro.png" width=150>
+
+#### JDSE paper: https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922
+
