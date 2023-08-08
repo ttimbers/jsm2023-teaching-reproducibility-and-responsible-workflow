@@ -25,7 +25,7 @@ Working with data necessitates collaboration. Although students often learn tech
 
 - [PDF slides](1-stoudt-collaborative-writing-workflows/stoudt-collaborative-writing-workflows.pdf)
 
-### [Opinionated practices for teaching reproducibility: motivation, guided instruction, and practice](timbers-opinionated-practices-for-teaching-reproducibility#readme)
+### [Opinionated practices for teaching reproducibility: motivation, guided instruction, and practice](https://www.tandfonline.com/doi/full/10.1080/26939169.2022.2074922)
 Tiffany Timbers (University of British Columbia)
 
 Reproducibility is a critical component to creating trustworthy data analyses, however most students enter the field of data science with other topics in mind, such as the current hot topic of machine learning. This, along with the highly technical nature of current reproducibility tools, present out-of-the gate challenges in teaching reproducibility. What can a data science educator do? Over several iterations of teaching courses focused on reproducible data science tools and workflows at the University of British Columbia, we have found that providing extra motivation, guided instruction and lots of practice are key to effectively teaching this challenging, yet important subject. In this talk we present examples of how we motivate, guide, and provide ample practice opportunities to students to effectively engage them in learning how to perform reproducible data analyses. 
@@ -52,3 +52,5 @@ I close with comments on the new JSDSE requirements that code and data supportin
 ### Discussant: Chris Paciorek (University of California, Berkeley)
 
 - [PDF slides](5-paciorek-discussion/paciorek-discussion.pdf)
+
+### [November 2022 issue of the Journal of Statistics and Data Science Education](https://www.tandfonline.com/toc/ujse21/30/3)
