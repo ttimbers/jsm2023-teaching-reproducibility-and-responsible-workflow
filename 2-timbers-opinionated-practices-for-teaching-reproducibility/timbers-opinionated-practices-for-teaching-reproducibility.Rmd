@@ -35,7 +35,7 @@ style_duo_accent(
   primary_color = "#444444",
   secondary_color = "#FFE5F3",# old colour #FFE5F3
   inverse_header_color = "#444444",
-  link_color = "deeppink",
+  link_color = "#B30059",
   title_slide_text_color = "#3d3d3d",
   title_slide_background_image = "img/title-slide-background-light.png",
   title_slide_background_position = "left",
@@ -70,7 +70,7 @@ style_duo_accent(
 
 
 
-<img src="img/ostblom-timbers-2022.png" height=475>
+<img src="img/ostblom-timbers-2022.png" alt="Screenshot of Ostblom and Timbers 2022 JSDSE paper" height=475>
 
 [https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922](https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922)
 
@@ -163,7 +163,7 @@ on the part of other members of that community.”"
 ]
 
 .pull-right[
-<img src="img/tourists-go-up-hill-sunrise.jpg" width=450>
+<img src="img/tourists-go-up-hill-sunrise.jpg" alt="A person helping other person climb a steep hill" width=450>
 
 **Source: [Image by jcomp on Freepik](https://www.freepik.com/free-photo/tourists-go-up-hill-sunrise_6172108.htm#query=trust&position=6&from_view=search&track=sph)**
 ]
@@ -220,7 +220,7 @@ class: center
 
 ### more effective collaboration!
 
-<img src="img/bonus-gift.png" height=350>
+<img src="img/bonus-gift.png" alt="Cartoon of a bonus gift" height=350>
 
 <!--Data science is an inherently collaborative discipline, 
 and adhering to reproducible and auditable data science methods 
@@ -244,7 +244,7 @@ class: center middle
 
 #### Students are more excited about generating insights from data than reproducibility?
 
-<img src="img/covid-forcast.png" height=350>
+<img src="img/covid-forcast.png" "Visualization of a model that predicts future COVID cases" height=350>
 
 *Source: [CTV BC News article on COVID case predictions](https://bc.ctvnews.ca/infectious-disease-modeller-predicts-big-spike-in-b-c-covid-cases-1.5056250)*
 
@@ -254,7 +254,7 @@ class: center middle
 
 #### Lack of awareness of the problems with non-reproducible analyses?
 
-<img src="img/shark-wave.png" height=350>
+<img src="img/shark-wave.png" alt="Man waving and smiling not knowing a shark is behind him" height=350>
 
 *Source: https://cheezburger.com/6600205568/untitled*
 
@@ -266,7 +266,7 @@ class: center middle
 
 For example, Git is hard!
 
-<img src="img/git_2x.png" height=350>
+<img src="img/git_2x.png" alt="infamous xkcd comic about how no one knows how to use Git" height=350>
 
 *Source: https://xkcd.com/1597/*
 
@@ -289,7 +289,7 @@ due to a momentary lack of willpower<sup>1</sup>.
 ]
 
 .pull-right[
-<img src="https://media.giphy.com/media/3240pzelRQkjj9XaiK/source.gif">
+<img src="https://media.giphy.com/media/3240pzelRQkjj9XaiK/source.gif" alt="Kylo Ren from Star Wars the Force Awakens saying I know what I have to do but I don't know if I have the strength to do it">
 *Source: [Star Wars: The Force Awakens](https://giphy.com/gifs/reaction-3240pzelRQkjj9XaiK)*
 ]
 
@@ -323,11 +323,11 @@ and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxfo
 
 ### Key things for teaching reproducibility
 
-1. <font color="#CF006F">placing extra emphasis on motivation</font>
+1. <font color="#B30059">placing extra emphasis on motivation</font>
 
 2. guided instruction
 
-3. <font color="#CF006F">lots of practice!!!</font>
+3. <font color="#B30059">lots of practice!!!</font>
 
 ---
 
@@ -347,7 +347,7 @@ class: inverse
 
 --
 
-3. <font color="#CF006F">Tell stories from the trenches</font>
+3. <font color="#B30059">Tell stories from the trenches</font>
 
 ---
 
@@ -401,11 +401,11 @@ Sample student story:
 
 
 .pull-left[
-<img src="img/repro_theme_chart.png" width=500>
+<img src="img/repro_theme_chart.png" alt="bar graph showing that version control, code, documentation, and environments are the most common causes of reproducibility failures" width=500>
 ]
 
 .pull-right[
-<img src="img/cost_theme_chart.png" width=500>
+<img src="img/cost_theme_chart.png" alt="bar graph showing that time is the most common cost of reproducibility failures" width=500>
 ]
 
 
@@ -470,7 +470,7 @@ Why I really like this exercise:
 ]
 
 .pull-right[
-<img src="img/mds-students.jpeg" width=350>
+<img src="img/mds-students.jpeg" alt="a photograph of data science students working in a UBC MDS classroom" width=350>
 
 UBC MDS student classroom
 ]
@@ -493,7 +493,7 @@ class: inverse
 
 --
 
-3. <font color="#CF006F">Pre-bake exercises</font>
+3. <font color="#B30059">Pre-bake exercises</font>
 
 ---
 
@@ -507,7 +507,7 @@ is helpful for providing practice opportunities.
 
 
 .pull-left[
-<img src="img/martha-stewart.png" width=500>
+<img src="img/martha-stewart.png" alt="Photo of Martha Stewart baking show" width=500>
 
 Source: https://peopletv.com/video/martha-bakes-angel-food-cake/
 ]
@@ -547,7 +547,7 @@ Before a pull request can be reviewed, a lot needs to happen to set the stage:
 
 
 .pull-right[
- <img src="img/inclined-wooden-block-tower-jenga-game-with-hand-risk-concept.jpg" height=350>
+ <img src="img/inclined-wooden-block-tower-jenga-game-with-hand-risk-concept.jpg" alt="Jenga tower falling over" height=350>
  
 **Source: [Image by jcomp on Freepik](https://www.freepik.com/free-photo/inclined-wooden-block-tower-jenga-game-with-hand-risk-concept_3762456.htm#page=2&query=jenga&position=27&from_view=search&track=sph)**
 ]
@@ -559,7 +559,7 @@ class: middle, center
 
 ### Exercise: Pre-baked review my pull request exercise
 
-<img src="img/review-my-pr-repo.png" height=450>
+<img src="img/review-my-pr-repo.png" alt="Screenshot of review-my-pull-request GitHub repository" height=450>
 
 [review-my-pull-request GitHub repository](https://github.com/ttimbers/review-my-pull-request)
 
@@ -569,7 +569,7 @@ class: middle, center
 
 ### Exercise: Pre-baked review my pull request exercise
 
-<img src="img/review-my-pr-demo.png" height=450>
+<img src="img/review-my-pr-demo.png" alt="Screenshot of pull request automatically generated by GitHub actions for students to practice pull request reviews" height=450>
 
 [review-my-pull-request GitHub repository](https://github.com/ttimbers/review-my-pull-request)
 
@@ -588,7 +588,7 @@ Why I really like this exercise:
 ]
 
 .pull-right[
-<img src="img/mds-students2.jpeg" width=400>
+<img src="img/mds-students2.jpeg" alt="a photograph of data science students working in a UBC MDS classroom" width=400>
 
 UBC MDS student classroom
 ]
@@ -605,17 +605,17 @@ class: middle
 
 ### Key things for teaching reproducibility
 
-#### <font color="#CF006F">1. Extra emphasis on motivation</font>
+#### <font color="#B30059">1. Extra emphasis on motivation</font>
 
 #### 2. Guided instruction
 
-#### <font color="#CF006F">3. Lots of practice!!!</font>
+#### <font color="#B30059">3. Lots of practice!!!</font>
 
 ---
 
 class: center, middle
 
-<img src="https://media.giphy.com/media/x1yhRwlqxBiQU/source.gif" width=800>
+<img src="https://media.giphy.com/media/x1yhRwlqxBiQU/source.gif" alt="Gif of the Dude from the Big Lewbowsk saying yeah, well, that's just like your opinion man" width=800>
 
 *Source: https://giphy.com/gifs/opinion-the-big-lebowski-x1yhRwlqxBiQU*
 
@@ -684,7 +684,7 @@ DSCI 100 teaching team
 
 .pull-right[
 2021-22 Master of Data Science teaching team
-<img src="https://ubc-mds.github.io/img/team/group.jpeg">
+<img src="https://ubc-mds.github.io/img/team/group.jpeg" alt="Group photo of UBC MDS teaching team">
 ]
 ---
 
@@ -700,5 +700,5 @@ class: inverse, center, middle
 
 <img src="img/bit.ly_opin-prac-repro.png" width=150>
 
-#### JDSE paper: https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922
+#### JSDSE paper: https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922
 
