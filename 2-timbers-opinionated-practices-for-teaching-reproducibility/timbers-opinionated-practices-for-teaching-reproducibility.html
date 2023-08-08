@@ -4,7 +4,8 @@
     <title>Opinionated practices for teaching reproducibility:</title>
     <meta charset="utf-8" />
     <meta name="author" content="Tiffany Timbers (UBC)  Joel Ostblom (UBC)" />
-    <meta name="author" content="2023-07-27" />
+    <meta name="author" content="2023-08-07" />
+    <meta name="author" content="bit.ly/opin-prac-repro" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
@@ -22,7 +23,10 @@ class: top, left, title-slide
 ### Tiffany Timbers (UBC) </br> Joel Ostblom (UBC)
 ]
 .author[
-### 2023-07-27
+### 2023-08-07
+]
+.author[
+### <em>bit.ly/opin-prac-repro</em>
 ]
 
 ---
@@ -59,7 +63,7 @@ class: middle, center
 
 
 
-&lt;img src="img/ostblom-timbers-2022.png" height=475&gt;
+&lt;img src="img/ostblom-timbers-2022.png" alt="Screenshot of Ostblom and Timbers 2022 JSDSE paper" height=475&gt;
 
 [https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922](https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922)
 
@@ -152,7 +156,7 @@ on the part of other members of that community.”"
 ]
 
 .pull-right[
-&lt;img src="img/tourists-go-up-hill-sunrise.jpg" width=450&gt;
+&lt;img src="img/tourists-go-up-hill-sunrise.jpg" alt="A person helping other person climb a steep hill" width=450&gt;
 
 **Source: [Image by jcomp on Freepik](https://www.freepik.com/free-photo/tourists-go-up-hill-sunrise_6172108.htm#query=trust&amp;position=6&amp;from_view=search&amp;track=sph)**
 ]
@@ -177,39 +181,13 @@ on the part of other members of that community.”"
 
 ---
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;
-
-### Examples of things that can go wrong without reproducible practices
-
---
-
-- An interesting result that you cannot recreate 😞
-
---
-
-- Your email inbox is full of information related to the project that only you have access too 😫
-
---
-
-- A small change to the analysis code requires re-running the entire thing, *and takes hours...* 😧
-
---
-
-- Activation time to becoming productive after taking a break from the project is hours to days 😴
-
---
-
-- Code that can only be run on one machine, *and you don't know why...* 😵
-
----
-
 class: center
 
 ### The lagniappe&lt;sup&gt;1&lt;/sup&gt; of reproducibile data science methods:
 
 ### more effective collaboration!
 
-&lt;img src="img/bonus-gift.png" height=350&gt;
+&lt;img src="img/bonus-gift.png" alt="Cartoon of a bonus gift" height=350&gt;
 
 &lt;!--Data science is an inherently collaborative discipline, 
 and adhering to reproducible and auditable data science methods 
@@ -233,7 +211,7 @@ class: center middle
 
 #### Students are more excited about generating insights from data than reproducibility?
 
-&lt;img src="img/covid-forcast.png" height=350&gt;
+&lt;img src="img/covid-forcast.png" "Visualization of a model that predicts future COVID cases" height=350&gt;
 
 *Source: [CTV BC News article on COVID case predictions](https://bc.ctvnews.ca/infectious-disease-modeller-predicts-big-spike-in-b-c-covid-cases-1.5056250)*
 
@@ -243,7 +221,7 @@ class: center middle
 
 #### Lack of awareness of the problems with non-reproducible analyses?
 
-&lt;img src="img/shark-wave.png" height=350&gt;
+&lt;img src="img/shark-wave.png" alt="Man waving and smiling not knowing a shark is behind him" height=350&gt;
 
 *Source: https://cheezburger.com/6600205568/untitled*
 
@@ -255,7 +233,7 @@ class: center middle
 
 For example, Git is hard!
 
-&lt;img src="img/git_2x.png" height=350&gt;
+&lt;img src="img/git_2x.png" alt="infamous xkcd comic about how no one knows how to use Git" height=350&gt;
 
 *Source: https://xkcd.com/1597/*
 
@@ -278,7 +256,7 @@ due to a momentary lack of willpower&lt;sup&gt;1&lt;/sup&gt;.
 ]
 
 .pull-right[
-&lt;img src="https://media.giphy.com/media/3240pzelRQkjj9XaiK/source.gif"&gt;
+&lt;img src="https://media.giphy.com/media/3240pzelRQkjj9XaiK/source.gif" alt="Kylo Ren from Star Wars the Force Awakens saying I know what I have to do but I don't know if I have the strength to do it"&gt;
 *Source: [Star Wars: The Force Awakens](https://giphy.com/gifs/reaction-3240pzelRQkjj9XaiK)*
 ]
 
@@ -312,11 +290,11 @@ and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxfo
 
 ### Key things for teaching reproducibility
 
-1. &lt;font color="#CF006F"&gt;placing extra emphasis on motivation&lt;/font&gt;
+1. &lt;font color="#B30059"&gt;placing extra emphasis on motivation&lt;/font&gt;
 
 2. guided instruction
 
-3. &lt;font color="#CF006F"&gt;lots of practice!!!&lt;/font&gt;
+3. &lt;font color="#B30059"&gt;lots of practice!!!&lt;/font&gt;
 
 ---
 
@@ -336,7 +314,7 @@ class: inverse
 
 --
 
-3. &lt;font color="#CF006F"&gt;Tell stories from the trenches&lt;/font&gt;
+3. &lt;font color="#B30059"&gt;Tell stories from the trenches&lt;/font&gt;
 
 ---
 
@@ -359,29 +337,14 @@ Here’s an example: &lt;br&gt; &lt;br&gt; *As a Masters student, I started to u
 
 Sample student story:
 
-*"In my line of work, my colleagues and I heavily relied on SQL queries to withdraw data from database. She always forgot to save the queries while just sending me an excel file to read. Sometimes (Most of the time) when I cross checked the data, the result didn't match. It usually required hours of troubleshooting to figure out where the gap was between my query and her data. ¯\_(ツ)_/¯"*
-
--- Master of Data Science student, UBC
-
-&lt;br&gt;
-
-- **Reproducibility failure &gt; methods not recorded as code** 
-- **Impact of reproducibility failure &gt; loss of time**
-
----
-
-### Tell stories from the trenches
-
-Sample student story:
-
 *“When I was working in my last job creating a database, I was working between two different computer systems. I had written the code on my local computer (a windows) but it was being deployed on a Linux command line system. To debug my code it was easier to do on my computer but certain lines of code were specific to the linux machine vs. the window machine. While I was using version control I had a really hard time keeping track of which script was which and it caused me to waste lots of time and energy trying to fix the issue”*
 
 -- Master of Data Science student, UBC
 
 &lt;br&gt;
 
-- **Reproducibility failure &gt; lack of a shippable and shareable computational environment** 
-- **Impact of reproducibility failure &gt; loss of time**
+- *Reproducibility failure &gt; computational environment*
+- *Impact of reproducibility failure &gt; loss of time*
 
 
 ---
@@ -390,11 +353,11 @@ Sample student story:
 
 
 .pull-left[
-&lt;img src="img/repro_theme_chart.png" width=500&gt;
+&lt;img src="img/repro_theme_chart.png" alt="bar graph showing that version control, code, documentation, and environments are the most common causes of reproducibility failures" width=500&gt;
 ]
 
 .pull-right[
-&lt;img src="img/cost_theme_chart.png" width=500&gt;
+&lt;img src="img/cost_theme_chart.png" alt="bar graph showing that time is the most common cost of reproducibility failures" width=500&gt;
 ]
 
 
@@ -445,6 +408,8 @@ corresponding to the chosen cost from the table below:
 
 ---
 
+class: middle
+
 ### Tell stories from the trenches
 
 .pull-left[
@@ -457,7 +422,7 @@ Why I really like this exercise:
 ]
 
 .pull-right[
-&lt;img src="img/mds-students.jpeg" width=350&gt;
+&lt;img src="img/mds-students.jpeg" alt="a photograph of data science students working in a UBC MDS classroom" width=350&gt;
 
 UBC MDS student classroom
 ]
@@ -480,21 +445,21 @@ class: inverse
 
 --
 
-3. &lt;font color="#CF006F"&gt;Pre-bake exercises&lt;/font&gt;
+3. &lt;font color="#B30059"&gt;Pre-bake exercises&lt;/font&gt;
 
 ---
 
 ### Pre-bake exercises
 
-Some reproducibility workflows require some time consuming, 
-or complex prerequisite work to have been done before it makes sense to do them.
+Some reproducibility tasks require time consuming, 
+or complex, prerequisite work before it makes sense to do them.
 
 In such cases. "pre-baking" exercises to a particular point
 is helpful for providing practice opportunities.
 
 
 .pull-left[
-&lt;img src="img/martha-stewart.png" width=500&gt;
+&lt;img src="img/martha-stewart.png" alt="Photo of Martha Stewart baking show" width=500&gt;
 
 Source: https://peopletv.com/video/martha-bakes-angel-food-cake/
 ]
@@ -517,10 +482,10 @@ Examples include:
 
 class: middle
 
-### Pre-baked review my pull request exercise
+### Pre-baked "review my pull request" exercise
 
 .pull-left[
-Reviewing pull requests is a hard task to get a lot of practice on! 
+Reviewing pull requests is a task where it is difficult to get a lot of practice! 
 
 Why? 
 
@@ -534,7 +499,7 @@ Before a pull request can be reviewed, a lot needs to happen to set the stage:
 
 
 .pull-right[
- &lt;img src="img/inclined-wooden-block-tower-jenga-game-with-hand-risk-concept.jpg" height=350&gt;
+ &lt;img src="img/inclined-wooden-block-tower-jenga-game-with-hand-risk-concept.jpg" alt="Jenga tower falling over" height=350&gt;
  
 **Source: [Image by jcomp on Freepik](https://www.freepik.com/free-photo/inclined-wooden-block-tower-jenga-game-with-hand-risk-concept_3762456.htm#page=2&amp;query=jenga&amp;position=27&amp;from_view=search&amp;track=sph)**
 ]
@@ -544,9 +509,9 @@ Before a pull request can be reviewed, a lot needs to happen to set the stage:
 
 class: middle, center
 
-### Exercise: Pre-baked review my pull request exercise
+### Exercise: Pre-baked "review my pull request" exercise
 
-&lt;img src="img/review-my-pr-repo.png" height=450&gt;
+&lt;img src="img/review-my-pr-repo.png" alt="Screenshot of review-my-pull-request GitHub repository" height=450&gt;
 
 [review-my-pull-request GitHub repository](https://github.com/ttimbers/review-my-pull-request)
 
@@ -554,9 +519,9 @@ class: middle, center
 
 class: middle, center
 
-### Exercise: Pre-baked review my pull request exercise
+### Exercise: Pre-baked "review my pull request" exercise
 
-&lt;img src="img/review-my-pr-demo.png" height=450&gt;
+&lt;img src="img/review-my-pr-demo.png" alt="Screenshot of pull request automatically generated by GitHub actions for students to practice pull request reviews" height=450&gt;
 
 [review-my-pull-request GitHub repository](https://github.com/ttimbers/review-my-pull-request)
 
@@ -564,7 +529,7 @@ class: middle, center
 
 class: middle
 
-### Pre-baked review my pull request exercise
+### Pre-baked "review my pull request" exercise
 
 .pull-left[
 Why I really like this exercise:
@@ -575,7 +540,7 @@ Why I really like this exercise:
 ]
 
 .pull-right[
-&lt;img src="img/mds-students2.jpeg" width=400&gt;
+&lt;img src="img/mds-students2.jpeg" alt="a photograph of data science students working in a UBC MDS classroom" width=400&gt;
 
 UBC MDS student classroom
 ]
@@ -592,17 +557,17 @@ class: middle
 
 ### Key things for teaching reproducibility
 
-#### &lt;font color="#CF006F"&gt;1. Extra emphasis on motivation&lt;/font&gt;
+#### &lt;font color="#B30059"&gt;1. Extra emphasis on motivation&lt;/font&gt;
 
 #### 2. Guided instruction
 
-#### &lt;font color="#CF006F"&gt;3. Lots of practice!!!&lt;/font&gt;
+#### &lt;font color="#B30059"&gt;3. Lots of practice!!!&lt;/font&gt;
 
 ---
 
 class: center, middle
 
-&lt;img src="https://media.giphy.com/media/x1yhRwlqxBiQU/source.gif" width=800&gt;
+&lt;img src="https://media.giphy.com/media/x1yhRwlqxBiQU/source.gif" alt="Gif of the Dude from the Big Lewbowsk saying yeah, well, that's just like your opinion man" width=800&gt;
 
 *Source: https://giphy.com/gifs/opinion-the-big-lebowski-x1yhRwlqxBiQU*
 
@@ -671,7 +636,7 @@ DSCI 100 teaching team
 
 .pull-right[
 2021-22 Master of Data Science teaching team
-&lt;img src="https://ubc-mds.github.io/img/team/group.jpeg"&gt;
+&lt;img src="https://ubc-mds.github.io/img/team/group.jpeg" alt="Group photo of UBC MDS teaching team"&gt;
 ]
 ---
 
@@ -683,8 +648,12 @@ class: inverse, center, middle
 
 ### @TiffanyTimbers
 
-#### talk slides: *url-TBD*
-#### paper: https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922
+### talk slides: [bit.ly/opin-prac-repro](https://ttimbers.github.io/jsm2023-teaching-reproducibility-and-responsible-workflow/2-timbers-opinionated-practices-for-teaching-reproducibility/timbers-opinionated-practices-for-teaching-reproducibility.html#1)
+
+&lt;img src="img/bit.ly_opin-prac-repro.png" width=150&gt;
+
+#### JSDSE paper: https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074922
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
